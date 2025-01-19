@@ -5,7 +5,7 @@
 <template>
     <div class="goods" v-for="n in 8" :key="n">
         <div class="good">
-            <img src="../assets/Capture001.png" alt="">
+            <img src="../assets/logo.svg" alt="">
             <p>教学</p>
         </div>
     </div>

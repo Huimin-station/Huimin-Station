@@ -4,6 +4,7 @@ import NewGoods from '@/views/NewGoods.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {path:"/",redirect:"/news"},
     {path:"/news",component:NewGoods},
     {path:"/touch",component:TouchGoods}
     // {

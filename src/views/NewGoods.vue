@@ -5,7 +5,7 @@
 <template>
     <div class="goods" v-for="n in 8" :key="n">
         <div class="good">
-            <img src="../assets/微信图片_20250114202357.jpg" alt="">
+            <img src="../assets/logo.svg" alt="">
             <p>我是</p>
         </div>
     </div>
