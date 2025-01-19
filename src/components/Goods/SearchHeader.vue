@@ -10,8 +10,8 @@
                 New Case
             </div>
             <div class="right">
-                <router-link to="/news">最新案例</router-link>
-                <router-link to="/touch">项目教学</router-link>
+                <router-link to="/home/news">最新案例</router-link>
+                <router-link to="/home/touch">项目教学</router-link>
                 
             </div>
         </div>

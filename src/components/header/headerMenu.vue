@@ -20,9 +20,9 @@ const handleSelect = (key, keyPath) => {
       text-color="#fff"
       active-text-color="#fff"
     >
-      <el-menu-item index="/">网站首页</el-menu-item>
+      <el-menu-item index="/home/news">网站首页</el-menu-item>
       <span>|</span>
-      <el-menu-item index="/">公司简介</el-menu-item>
+      <el-menu-item index="/introduction">公司简介</el-menu-item>
       <span>|</span>
       <el-menu-item index="/">成功案例</el-menu-item>
       <span>|</span>
@@ -34,6 +34,9 @@ const handleSelect = (key, keyPath) => {
 </template>
 
 <style scoped lang="less">
+a{
+  text-decoration: none;
+}
 .menu{
   height:inherit;
   color: white;
