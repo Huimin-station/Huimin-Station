@@ -2,17 +2,17 @@ import { createRouter, createWebHistory } from 'vue-router'
 import TouchGoods from '@/views/TouchGoods.vue'
 import NewGoods from '@/views/NewGoods.vue'
 
-
+import LoginPage from '@/views/Login/LoginPage.vue'
 import HomePage from '@/views/HomePage/HomePage.vue'
-import IntroductionPage from '@/views/IntroductionPage/IntroductionPage.vue'
+import IntroductionPage from '@/views/IntroductionPage/IntroductionPages.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     
-    {path:"/",redirect:"/home/news"},
+    {path:"/",redirect:"/login"},
     {path:"/home",component:HomePage,children:[{path:"/home/news",component:NewGoods},{path:"/home/touch",component:TouchGoods}]},
-    {path:"/introduction",component:IntroductionPage}
-    
+    {path:"/introduction",component:IntroductionPage},
+    {path:"/login",component:LoginPage}
     // {
     //   path: '/',
     //   name: 'home',

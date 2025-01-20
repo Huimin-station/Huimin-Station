@@ -5,9 +5,9 @@
   <div class="top-box">
     <el-row :gutter="0" align="middle" justify="space-between">
       <el-col :span="12">
-        <router-link to="/">登录</router-link>
+        <router-link to="/login">登录</router-link>
         <span>&nbsp;|&nbsp;</span>
-        <router-link to="/">注册</router-link>
+        <router-link to="/login">注册</router-link>
       </el-col>
       <el-col :span="12" class="right">
         <el-icon>

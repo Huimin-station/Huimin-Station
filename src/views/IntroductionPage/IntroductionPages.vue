@@ -3,6 +3,9 @@
 import HeaderTop from '@/components/header/headerTop.vue'
 import onlyheader from '@/components/header/onlyheader.vue';
 import footerIndex from '@/components/footer/footerIndex.vue';
+import IntroductionPeoples from '@/components/Introduction/IntroductionPeoples.vue';
+import AllNum from '@/components/Introduction/AllNum.vue';
+import BoderSet from '@/components/others/BoderSet.vue';
 </script>
 
 <template>
@@ -13,10 +16,12 @@ import footerIndex from '@/components/footer/footerIndex.vue';
       </div>
     </div>
     <onlyheader></onlyheader>
-    <div class="x"></div><!--占位盒子-->
-    <div class="star">
-        <h1>暂时没有内容</h1>
-    </div>
+    <!-- <div class="x"></div>占位盒子 -->
+    <AllNum></AllNum>
+    <BoderSet></BoderSet>
+    <IntroductionPeoples></IntroductionPeoples>
+    <BoderSet></BoderSet>
+    <AllNum></AllNum>
     <footer-index></footer-index>
   </header>
 </template>
@@ -40,9 +45,5 @@ import footerIndex from '@/components/footer/footerIndex.vue';
     width: 100%;
     height: 80px;
 }
-.star{
-    text-align: center;
-    width: 600px;
-    line-height: 600px;
-}
+
 </style>
