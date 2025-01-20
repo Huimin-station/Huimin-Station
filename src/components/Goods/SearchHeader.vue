@@ -41,9 +41,10 @@ span{
     line-height: 36px;
     width: 1000px;
     height: 40px;
-    background-color: aqua;
+    background-color: white;
 }
 .header .top{
+    margin-top: 30px;
     width: 100%;
     height: 36px;
 }

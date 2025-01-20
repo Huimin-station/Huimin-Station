@@ -15,11 +15,10 @@
 <style scoped>
 .bigbox {
     width: 1000px;
-    background-color: antiquewhite;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 .all{
     display: inline-block;

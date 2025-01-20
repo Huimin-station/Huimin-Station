@@ -16,7 +16,8 @@
     margin: 20px 0;
     width: 220px;
     height: 240px;
-    background-color: yellowgreen;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .3);
 }
 .good img{
     width: 100%;
