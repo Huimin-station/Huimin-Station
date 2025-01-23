@@ -27,7 +27,7 @@ const input = ref('')
 .search {
   width: 100%;
   height: 5rem;
-  background: #2e5098;
+  background: rgb(65, 2, 2);
   display: flex;
   align-items: center;
 

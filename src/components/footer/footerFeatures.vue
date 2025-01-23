@@ -43,7 +43,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        color: #304993;
+        color: black;
         font-weight: bold;
 
         img {

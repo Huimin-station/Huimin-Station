@@ -15,7 +15,7 @@
 <style scoped>
 .bigbox {
     width: 1000px;
-    background-color: white;
+    background-color: brown;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

@@ -5,14 +5,17 @@ import NewGoods from '@/views/NewGoods.vue'
 import LoginPage from '@/views/Login/LoginPage.vue'
 import HomePage from '@/views/HomePage/HomePage.vue'
 import IntroductionPage from '@/views/IntroductionPage/IntroductionPages.vue'
+import VadioRouter from '@/views/VadioPage/VadioRouter.vue'
+import Oldwork from '@/views/OldWork/Oldwork.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    
+  routes: [   
     {path:"/",redirect:"/login"},
     {path:"/home",component:HomePage,children:[{path:"/home/news",component:NewGoods},{path:"/home/touch",component:TouchGoods}]},
     {path:"/introduction",component:IntroductionPage},
-    {path:"/login",component:LoginPage}
+    {path:"/vadio",component:VadioRouter},
+    {path:"/login",component:LoginPage},
+    {path:"/oldwork",component:Oldwork}
     // {
     //   path: '/',
     //   name: 'home',

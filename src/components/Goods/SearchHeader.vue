@@ -28,9 +28,11 @@
     margin: 0;
     padding: 0;
 }
-a{
+a{  
+    color: black;
     box-sizing: border-box;
     text-decoration: none;
+    transition: all .3s;
 }
 span{
     margin-left: 10px;
@@ -41,7 +43,7 @@ span{
     line-height: 36px;
     width: 1000px;
     height: 40px;
-    background-color: white;
+    background-color: brown;
 }
 .header .top{
     margin-top: 30px;
@@ -66,11 +68,12 @@ span{
     height: 4px;
     background-color: darkgrey;
 }
+
 a:hover{
     background-color: grey;
     color: black;
 }
 a.router-link-exact-active{
-    background-color: azure;
+    background-color: red;
 }
 </style>

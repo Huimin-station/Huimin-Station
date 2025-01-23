@@ -24,11 +24,11 @@ const handleSelect = (key, keyPath) => {
       <span>|</span>
       <el-menu-item index="/introduction">公司简介</el-menu-item>
       <span>|</span>
-      <el-menu-item index="/">成功案例</el-menu-item>
+      <el-menu-item index="/oldwork">成功案例</el-menu-item>
       <span>|</span>
-      <el-menu-item index="/">新闻中心</el-menu-item>
+      <el-menu-item index="/vadio">新闻中心</el-menu-item>
       <span>|</span>
-      <el-menu-item index="/">联系我们</el-menu-item>
+      <el-menu-item index="/oldwork">联系我们</el-menu-item>
     </el-menu>
   </div>
 </template>

@@ -16,6 +16,7 @@ import HeaderMenu from '@/components/header/headerMenu.vue'
     <div class="box">
       <el-carousel height="50vh" indicator-position="none" arrow="always">
         <el-carousel-item v-for="item in 4" :key="item">
+          <img width="100%" height="100%" src="https://img.tukuppt.com/ad_preview/00/10/81/5d7e0679dfb3f.jpg!/fw/980" alt="">
           <h3 text="2xl" justify="center">{{ item }}</h3>
         </el-carousel-item>
       </el-carousel>
@@ -54,7 +55,7 @@ import HeaderMenu from '@/components/header/headerMenu.vue'
       }
     }
   }
-
+  
   .el-carousel__item h3 {
     display: flex;
     justify-content: center;

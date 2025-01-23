@@ -11,6 +11,6 @@
    .all{
     width: 100%;
     height: 600px;
-    background-color: aquamarine;
+    background-color: rgb(255, 0, 0);
    }
 </style>

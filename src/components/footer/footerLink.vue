@@ -62,7 +62,7 @@ const msg = reactive([
       </div>
       <div class="right">
         <span>企业微信</span>
-        <img src="@/assets/logo.svg" alt="这是二维码">
+        <img src="@/assets/wx.jpg" alt="这是二维码">
       </div>
     </div>
   </div>

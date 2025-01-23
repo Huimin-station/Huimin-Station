@@ -99,15 +99,15 @@ const questionData = ref([
 
 <style>
 :root {
-    --base-border: 1px solid #dcdfe6;
-    --base-color: #909399;
+    --base-border: 1px solid #fbff09;
+    --base-color: #ccff00;
     --base-hover-color: #f5f5f5;
 
     --container-padding: 0 18%;
-    --container-bgcolor: #F6F6F6;
+    --container-bgcolor: #c70303;
 
     --card-padding: 2% 3%;
-    --card-bgcolor: #fff;
+    --card-bgcolor: #ae0000;
     --card-border: var(--base-border);
     --card-shadow: 0px 12px 32px 4px rgba(0, 0, 0, .04), 0px 8px 20px rgba(0, 0, 0, .08);
     --card-gap: 5%;
