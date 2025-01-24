@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
+    "aplayer": "^1.10.1",
     "element-plus": "^2.9.3",
     "less": "^4.2.1",
     "pinia": "^2.2.4",

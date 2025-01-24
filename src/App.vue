@@ -1,11 +1,13 @@
 <script setup>
-
+import LeftSeting from './components/Leftsetint/LeftSeting.vue';
 </script>
 
 <template>
   <div class="totle">
     <RouterView></RouterView> 
-    <audio autoplay controls src="@assets/1.mp3"></audio>
+
+    <LeftSeting></LeftSeting>
+ 
     
   </div>
 </template>
@@ -14,9 +16,5 @@
 .totle{
   background-color: rgb(173, 10, 10);
 }
-audio{
-  position: fixed;
-  bottom: 0;
 
-}
 </style>
